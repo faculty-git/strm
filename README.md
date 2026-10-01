@@ -1,2 +1,4 @@
-# strm
-deploy
+ -AI Summerize PDF documents
+          -AI ChatPro is the name of the product
+          -Scan through all pdf and generate a report
+          -Created and maintained by Company
