@@ -13,7 +13,7 @@ from pdf2image import convert_from_bytes
 import base64
 from io import BytesIO
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=st.secrets['OPENAI_API_KEY'])
 print("OpenAI connected")
 
 messages=[{"role":"system","content":'''
